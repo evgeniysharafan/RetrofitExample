@@ -3,10 +3,10 @@ package com.evgeniysharafan.retrofitexample.util;
 import android.text.TextUtils;
 import android.widget.ImageView;
 
-import com.evgeniysharafan.retrofitexample.util.lib.CircleTransformation;
-import com.evgeniysharafan.retrofitexample.util.lib.L;
-import com.evgeniysharafan.retrofitexample.util.lib.Res;
-import com.evgeniysharafan.retrofitexample.util.lib.Utils;
+import com.evgeniysharafan.utils.L;
+import com.evgeniysharafan.utils.Res;
+import com.evgeniysharafan.utils.Utils;
+import com.evgeniysharafan.utils.picasso.CircleTransformation;
 import com.squareup.picasso.Picasso;
 import com.squareup.picasso.RequestCreator;
 import com.squareup.picasso.Transformation;

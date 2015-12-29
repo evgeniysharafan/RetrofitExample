@@ -4,8 +4,8 @@ import android.app.Activity;
 import android.support.v4.app.Fragment;
 
 import com.evgeniysharafan.retrofitexample.http.RetrofitCallback.ApiCallbacks;
-import com.evgeniysharafan.retrofitexample.util.lib.Fragments;
-import com.evgeniysharafan.retrofitexample.util.lib.L;
+import com.evgeniysharafan.utils.Fragments;
+import com.evgeniysharafan.utils.L;
 
 import retrofit.RetrofitError;
 

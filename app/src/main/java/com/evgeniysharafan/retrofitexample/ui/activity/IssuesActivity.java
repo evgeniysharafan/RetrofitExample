@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 
 import com.evgeniysharafan.retrofitexample.R;
 import com.evgeniysharafan.retrofitexample.ui.fragment.IssuesFragment;
-import com.evgeniysharafan.retrofitexample.util.lib.Fragments;
+import com.evgeniysharafan.utils.Fragments;
 
 public class IssuesActivity extends AppCompatActivity {
 

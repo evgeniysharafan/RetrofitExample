@@ -12,8 +12,8 @@ import android.view.ViewGroup;
 import com.evgeniysharafan.retrofitexample.R;
 import com.evgeniysharafan.retrofitexample.http.model.Issue;
 import com.evgeniysharafan.retrofitexample.ui.adapter.IssueAdapter;
-import com.evgeniysharafan.retrofitexample.util.lib.L;
-import com.evgeniysharafan.retrofitexample.util.lib.Toasts;
+import com.evgeniysharafan.utils.L;
+import com.evgeniysharafan.utils.Toasts;
 
 import java.util.ArrayList;
 import java.util.List;

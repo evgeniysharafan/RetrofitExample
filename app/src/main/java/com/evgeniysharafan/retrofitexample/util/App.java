@@ -3,8 +3,7 @@ package com.evgeniysharafan.retrofitexample.util;
 import android.app.Application;
 
 import com.evgeniysharafan.retrofitexample.BuildConfig;
-import com.evgeniysharafan.retrofitexample.util.lib.Utils;
-
+import com.evgeniysharafan.utils.Utils;
 
 public final class App extends Application {
 

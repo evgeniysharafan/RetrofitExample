@@ -3,9 +3,9 @@ package com.evgeniysharafan.retrofitexample.http;
 
 import com.evgeniysharafan.retrofitexample.R;
 import com.evgeniysharafan.retrofitexample.http.model.Issue;
-import com.evgeniysharafan.retrofitexample.util.lib.L;
-import com.evgeniysharafan.retrofitexample.util.lib.Res;
-import com.evgeniysharafan.retrofitexample.util.lib.Utils;
+import com.evgeniysharafan.utils.L;
+import com.evgeniysharafan.utils.Res;
+import com.evgeniysharafan.utils.Utils;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 

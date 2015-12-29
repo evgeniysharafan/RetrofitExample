@@ -8,7 +8,7 @@ import com.evgeniysharafan.retrofitexample.http.RetrofitCallback;
 import com.evgeniysharafan.retrofitexample.http.RetrofitCallback.ApiCallbacks;
 import com.evgeniysharafan.retrofitexample.http.RetrofitCallback.CallbacksGetter;
 import com.evgeniysharafan.retrofitexample.http.model.Issue;
-import com.evgeniysharafan.retrofitexample.util.lib.Utils;
+import com.evgeniysharafan.utils.Utils;
 
 import java.net.UnknownHostException;
 import java.util.ArrayList;
