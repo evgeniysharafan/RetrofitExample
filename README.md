@@ -15,6 +15,3 @@ It allows to cache responses very easy because we use Activity's fragment manage
 
 -
 This project uses Retrofit 1.9. When version 2.0 is released, this project will be updated.
-
--
-Now it contains util.library package, but in the future it will be moved to a separate project and will be available as gradle dependency.
