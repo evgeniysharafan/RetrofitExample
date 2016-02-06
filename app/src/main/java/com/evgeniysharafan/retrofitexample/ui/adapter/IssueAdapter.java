@@ -15,8 +15,8 @@ import com.evgeniysharafan.retrofitexample.util.AppUtils;
 
 import java.util.List;
 
+import butterknife.Bind;
 import butterknife.ButterKnife;
-import butterknife.InjectView;
 
 public class IssueAdapter extends RecyclerView.Adapter<IssueAdapter.ViewHolder> {
 
@@ -61,18 +61,18 @@ public class IssueAdapter extends RecyclerView.Adapter<IssueAdapter.ViewHolder> 
 
     static class ViewHolder extends RecyclerView.ViewHolder {
 
-        @InjectView(R.id.icon)
+        @Bind(R.id.icon)
         ImageButton icon;
-        @InjectView(R.id.title)
+        @Bind(R.id.title)
         TextView title;
-        @InjectView(R.id.body)
+        @Bind(R.id.body)
         TextView body;
-        @InjectView(R.id.time)
+        @Bind(R.id.time)
         TextView time;
 
         ViewHolder(View v) {
             super(v);
-            ButterKnife.inject(this, v);
+            ButterKnife.bind(this, v);
         }
     }
 }

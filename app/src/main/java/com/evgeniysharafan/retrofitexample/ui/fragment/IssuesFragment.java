@@ -18,8 +18,8 @@ import com.evgeniysharafan.utils.Toasts;
 import java.util.ArrayList;
 import java.util.List;
 
+import butterknife.Bind;
 import butterknife.ButterKnife;
-import butterknife.InjectView;
 import retrofit.RetrofitError;
 import retrofit.client.Response;
 
@@ -28,9 +28,9 @@ import static retrofit.RetrofitError.Kind;
 
 public class IssuesFragment extends RetrofitFragment implements OnRefreshListener {
 
-    @InjectView(R.id.swipeRefresh)
+    @Bind(R.id.swipeRefresh)
     SwipeRefreshLayout refresh;
-    @InjectView(R.id.recyclerView)
+    @Bind(R.id.recyclerView)
     RecyclerView recyclerView;
 
     private List<Issue> issues = new ArrayList<>();
@@ -44,7 +44,7 @@ public class IssuesFragment extends RetrofitFragment implements OnRefreshListene
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_issues, container, false);
-        ButterKnife.inject(this, view);
+        ButterKnife.bind(this, view);
         initUI();
 
         return view;
@@ -130,6 +130,6 @@ public class IssuesFragment extends RetrofitFragment implements OnRefreshListene
     @Override
     public void onDestroyView() {
         super.onDestroyView();
-        ButterKnife.reset(this);
+        ButterKnife.unbind(this);
     }
 }
